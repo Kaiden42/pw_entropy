@@ -72,7 +72,7 @@ pub const UPPER_CHARS: &str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 pub const DIGIT_CHARS: &str = "0123456789";
 
 /// The info about a password to calculate the password's entropy.
-#[derive(Debug)]
+#[derive(Clone, Copy, Debug)]
 #[allow(clippy::struct_excessive_bools)]
 pub struct PasswordInfo {
     /// The stripped length of the password.
