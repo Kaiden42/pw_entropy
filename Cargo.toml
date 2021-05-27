@@ -3,6 +3,12 @@ name = "pw_entropy"
 version = "0.1.0"
 authors = ["Kaiden42 <gitlab@tinysn.com>"]
 edition = "2018"
+description = "A small crate for calculating the entropy of passwords."
+license = "MIT"
+repository = "https://github.com/Kaiden42/pw_entropy"
+documentation = "https://docs.rs/pw_entropy"
+readme = "README.md"
+keywords = ["password", "entropy", "strength"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [features]
